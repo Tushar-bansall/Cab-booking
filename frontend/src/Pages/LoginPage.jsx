@@ -81,11 +81,16 @@ const LoginPage = () => {
               : <button className="btn w-full"><span className="loading loading-spinner"></span>loading</button>}
         </form>
 
-        <div className='text-center ' >
+        <div className='text-center flex flex-col gap-5' >
           <p className='text-base-content/60 text-blue-800 md:text-blue-500 text-sm sm:text-base'>
               Create New Account?{" "}
               <Link to="/signup" className="link link-primary text-blue-800 md:text-blue-500"> Sign Up</Link>
           </p>
+          <p className='text-base-content/60 text-blue-800 md:text-blue-500 text-sm sm:text-base'>
+              Drive With Us?{" "}
+              <Link to="/driverlogin" className="link link-primary text-blue-800 md:text-blue-500"> Login as Captain</Link>
+          </p>
+          
             
         
         </div>
