@@ -84,7 +84,7 @@ RAZORPAY_KEY_SECRET=<your_razorpay_key_secret>
 GOOGLE_CLIENT_ID=<your_google_client_id>
 GOOGLE_CLIENT_SECRET=<your_google_client_secret>
 GEOAPIFY_API_KEY=<your_geoapify_api_key>
-PORT=5000
+PORT=8001
 NODE_ENV=development
 ```
 
